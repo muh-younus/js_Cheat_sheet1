@@ -21,9 +21,17 @@ main{
 }
 .container{
 
-    background-color: #F9FAFB;
+    background-color: black;
     width: 60vw;
      margin-top: 35px;
      padding: 20px;
      border-radius: 5px;
+     color: white;
+}
+
+.copy-to-clipboard-button{
+
+    color: black !important;
+    background-color: gray !important;
+    padding: 5px 10px !important;
 }

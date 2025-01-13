@@ -4,13 +4,22 @@
     padding: 0
 
 }
+body{
+
+    position: relative;
+    z-index: 0;
+}
 
 
 .shadow{
 
+    
+
     box-shadow: 2px 12px 12px -8px rgba(0,0,0,1);
 -webkit-box-shadow: 2px 12px 12px -8px rgba(0,0,0,1);
 -moz-box-shadow: 2px 12px 12px -8px rgba(0,0,0,1);
+
+
 
 }
 main{
@@ -18,6 +27,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    z-index: -1111 !important;
 }
 .container{
 
@@ -34,4 +45,12 @@ main{
     color: black !important;
     background-color: gray !important;
     padding: 5px 10px !important;
+}
+.code-toolbar{
+
+}
+
+li h3{
+
+    padding: 20px 0px;
 }
